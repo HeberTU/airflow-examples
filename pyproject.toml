@@ -4,7 +4,6 @@ version = "0.1.0"
 description = ""
 authors = ["HeberTU <heber.trj.urt@gmail.com>"]
 readme = "README.md"
-packages = [{include = "airflow_examples"}]
 
 [tool.poetry.dependencies]
 python = ">=3.8,<3.12"
