@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "airflow-examples"
+version = "0.1.0"
+description = ""
+authors = ["HeberTU <heber.trj.urt@gmail.com>"]
+readme = "README.md"
+packages = [{include = "airflow_examples"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.12"
+pre-commit = "^3.5.0"
+apache-airflow = "^2.7.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
